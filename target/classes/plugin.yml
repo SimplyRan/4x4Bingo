@@ -1,0 +1,21 @@
+name: ZeroBingo
+version: '1.0-SNAPSHOT'
+main: me.ranwolf.zerobingo.ZeroBingo
+api-version: '1.20'
+
+commands:
+  bingo:
+    description: bingo
+  startbingo:
+    description: start game
+  endbingo:
+    description: end game
+  additem:
+    description: add item to bingo
+    usage: /<command> <Material> <points>
+  reloadbingo:
+    description: reload bingo plugin
+  bingoteams:
+    description: bingoteams
+  addtoteam:
+    description: add to team

@@ -1,0 +1,16 @@
+me\ranwolf\zerobingo\cmd\reloadPlugin.class
+me\ranwolf\zerobingo\completers\addToTeamCom.class
+me\ranwolf\zerobingo\cmd\addItemToBingo.class
+me\ranwolf\zerobingo\cmd\bingoBored.class
+me\ranwolf\zerobingo\ZeroBingo.class
+me\ranwolf\zerobingo\cmd\startGame.class
+me\ranwolf\zerobingo\listeners\pickupItem.class
+me\ranwolf\zerobingo\listeners\disableTakingItems.class
+me\ranwolf\zerobingo\manager\ItemsManager.class
+me\ranwolf\zerobingo\cmd\teamCmd\addToTeam.class
+me\ranwolf\zerobingo\cmd\teamCmd\teams.class
+me\ranwolf\zerobingo\completers\addItem.class
+me\ranwolf\zerobingo\cmd\endGame.class
+me\ranwolf\zerobingo\manager\PlayerManager.class
+me\ranwolf\zerobingo\manager\GameManager.class
+me\ranwolf\zerobingo\manager\TeamManager.class
