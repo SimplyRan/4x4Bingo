@@ -6,7 +6,9 @@ C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\ZeroBing
 C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\cmd\addItemToBingo.java
 C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\manager\PlayerManager.java
 C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\cmd\reloadPlugin.java
+C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\completers\addToTeamCom.java
 C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\cmd\bingoBored.java
+C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\cmd\teamCmd\addToTeam.java
 C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\cmd\startGame.java
 C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\completers\addItem.java
 C:\Users\user\IdeaProjects\ZeroBingo\src\main\java\me\ranwolf\zerobingo\listeners\disableTakingItems.java
