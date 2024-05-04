@@ -33,9 +33,9 @@ public class addItem implements TabCompleter {
 
         for (Material material : Material.values()) {
             String materialName = material.name().toUpperCase();
-
             if (materialName.startsWith(partial.toUpperCase())) {
-                matches.add(materialName);
+                if (material.isItem())
+                    matches.add(materialName);
             }
         }
 

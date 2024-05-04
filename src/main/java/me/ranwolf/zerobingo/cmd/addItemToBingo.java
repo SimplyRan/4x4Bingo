@@ -1,11 +1,14 @@
 package me.ranwolf.zerobingo.cmd;
 
 import me.ranwolf.zerobingo.ZeroBingo;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.event.inventory.InventoryType;
+import org.bukkit.inventory.Inventory;
 
 import java.util.ArrayList;
 
@@ -22,7 +25,7 @@ public class addItemToBingo implements CommandExecutor {
         if (args.length < 2){
             return false;
         }
-        if (Material.getMaterial(args[0]) == null){
+        if (!Material.getMaterial(args[0]).isItem()){
             sender.sendMessage("Invalid Material");
             return true;
         }

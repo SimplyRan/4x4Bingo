@@ -75,8 +75,8 @@ public class bingoBored implements CommandExecutor {
             itemNow.setItemMeta(itemNowMeta);
             bingoInv.setItem(indexToPut[i] , itemNow);
             i++;
-
         }
+
         //Team Points item
         ItemStack teamItem = new ItemStack(Material.BOOK);
         ItemMeta teamItemMeta = teamItem.getItemMeta();

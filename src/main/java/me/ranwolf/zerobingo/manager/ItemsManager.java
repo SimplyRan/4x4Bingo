@@ -53,7 +53,8 @@ public class ItemsManager {
         int indexOfDiv = item.indexOf(',');
         Material material = Material.STONE;
         if (Material.getMaterial(item.substring(0 , indexOfDiv)) != null)
-            material = Material.getMaterial(item.substring(0 , indexOfDiv));
+            if (Material.getMaterial(item.substring(0 , indexOfDiv)).isItem())
+                material = Material.getMaterial(item.substring(0 , indexOfDiv));
         return material;
 
     }
